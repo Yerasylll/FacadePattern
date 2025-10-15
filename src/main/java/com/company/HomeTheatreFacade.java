@@ -6,11 +6,11 @@ public class HomeTheatreFacade {
     private Lights lights;
     private Display display;
 
-    public HomeTheatreFacade(Speaker speaker, Projector projector, Lights lights, Display display) {
-        this.speaker = speaker;
-        this.projector = projector;
-        this.lights = lights;
-        this.display = display;
+    public HomeTheatreFacade() {
+        this.speaker = new Speaker();
+        this.projector = new Projector();
+        this.lights = new Lights();
+        this.display = new Display();
     }
 
     public void watchMovie(String movie) {
