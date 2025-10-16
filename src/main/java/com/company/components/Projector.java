@@ -1,4 +1,4 @@
-package com.company;
+package com.company.components;
 
 public class Projector {
     public void on() {

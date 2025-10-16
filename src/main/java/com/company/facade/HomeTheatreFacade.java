@@ -1,4 +1,9 @@
-package com.company;
+package com.company.facade;
+
+import com.company.components.Display;
+import com.company.components.Lights;
+import com.company.components.Projector;
+import com.company.components.Speaker;
 
 public class HomeTheatreFacade {
     private Speaker speaker;
